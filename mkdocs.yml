@@ -1,0 +1,307 @@
+site_name: engineering approach
+nav: 
+    - software engineering:
+        - software engineering/index.md
+        - software engineering/概述.md
+        - software engineering/models.md
+        - software engineering/management.md
+        - software engineering/metrics.md
+        - software engineering/Project Planning.md
+        - software engineering/Risk Management.md
+        - software engineering/Requirement.md
+        - software engineering/S&W Configuration.md
+        - software engineering/Quality.md
+        - software engineering/Design.md
+        - software engineering/Coding.md
+        - software engineering/Reliability.md
+        - software engineering/S. Reliability Models.md
+        - software engineering/Maintenance.md
+        - software engineering/Testing.md
+    - software testing:
+        - software testing/index.md
+        - software testing/概述.md
+        - software testing/SDLC models.md
+        - software testing/Types of Testing.md
+        - software testing/Types of Manual.md
+        - software testing/White Box Techniques.md
+        - software testing/Black Box Techniques.md
+        - software testing/Types of Black Box.md
+        - software testing/Types of Functional.md
+        - software testing/Types of Non-functional.md
+        - software testing/Test case development.md
+        - software testing/Testing Techniques.md
+        - software testing/Test Management.md
+        - software testing/Defect Tracking.md
+        - software testing/Other types of Testing.md
+        - software testing/Software Testing Tools.md
+        - software testing/区分概念.md
+        - software testing/MCQ.md
+    - Ethical Hacking:
+        - Ethical Hacking/index.md
+        - Ethical Hacking/概论.md
+        - Ethical Hacking/Network Penetration.md
+        - Ethical Hacking/Pre-connection Attacks.md
+        - Ethical Hacking/Network Device Access.md
+        - Ethical Hacking/Post Attacks.md
+        - Ethical Hacking/MITM Attacks.md
+        - Ethical Hacking/Computer Access.md
+        - Ethical Hacking/Server-side Attacks.md
+        - Ethical Hacking/Client-side Attacks.md
+        - Ethical Hacking/Post Exploitation.md
+        - Ethical Hacking/Website Penetration.md
+        - Ethical Hacking/Misc.md
+    - cyber security:
+        - cyber security/index.md
+        - cyber security/概述.md
+        - cyber security/MCQ.md
+    - data warehouse:
+        - data warehouse/index.md
+        - data warehouse/概述.md
+        - data warehouse/OLAP Technology.md
+        - data warehouse/Dimensional Modeling.md
+        - data warehouse/Schemas.md
+    - Data Mining:
+        - Data Mining/index.md
+        - Data Mining/概述.md
+        - Data Mining/内容.md
+        - Data Mining/MCQ.md
+    - compiler:
+        - compiler/index.md
+        - compiler/概述.md
+        - compiler/Basic Parsing.md
+        - compiler/Predictive Parsers.md
+        - compiler/SDT.md
+        - compiler/Symbol Tables.md
+        - compiler/Administration.md
+        - compiler/Error Detection.md
+        - compiler/Code Generation.md
+        - compiler/Code Optimization.md
+        - compiler/MCQ.md
+    - control system:
+        - control system/index.md
+        - control system/概述.md
+        - control system/Time Domain Analysis.md
+        - control system/Stability Analysis.md
+        - control system/Root Locus.md
+        - control system/Frequency Response Analysis.md
+        - control system/State variable analysis.md
+        - control system/MCQ.md
+        
+extra_css:
+    - res/extra.css
+extra_javascript:
+    - res/extra.js
+
+    - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+
+    - https://polyfill.io/v3/polyfill.min.js?features=es6
+    - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+copyright: Copyright &copy; 2022 - 2023 travis
+
+# repo_url: @
+# repo_name: @
+
+theme:
+    name: material
+    # custom_dir: overrides
+
+    palette:
+        - media: "(prefers-color-scheme)"
+          primary: red
+          accent: red
+          toggle:
+            icon: material/brightness-auto
+            name: 切换到暗模式
+        - media: "(prefers-color-scheme: light)"
+          primary: green
+          accent: green
+          scheme: default 
+          toggle:
+            icon: material/brightness-7
+            name: 切换到默认模式
+        - media: "(prefers-color-scheme: dark)"
+          primary: blue
+          accent: blue
+          scheme: slate
+          toggle:
+            icon: material/brightness-4
+            name: 切换到亮模式
+
+    font:
+        text: Roboto
+        code: Roboto Mono
+
+    language: zh
+    direction: ltr
+
+    logo: https://pic.peo.pw/a/2023/01/12/63bfb934b1b06.png
+    favicon: https://pic.peo.pw/a/2023/01/12/63bfb934b1b06.png
+    icon:
+        logo: octicons/heart-fill-24
+
+        repo: fontawesome/brands/github
+        edit: material/pencil
+        view: material/eye
+
+
+        admonition:
+            note: fontawesome/solid/note-sticky
+            abstract: fontawesome/solid/book
+            info: fontawesome/solid/circle-info
+            tip: fontawesome/solid/bullhorn
+            success: fontawesome/solid/check
+            question: fontawesome/solid/circle-question
+            warning: fontawesome/solid/triangle-exclamation
+            failure: fontawesome/solid/bomb
+            danger: fontawesome/solid/skull
+            bug: fontawesome/solid/robot
+            example: fontawesome/solid/flask
+            quote: fontawesome/solid/quote-left
+
+
+
+
+    features:
+        - navigation.instant
+        - navigation.tracking
+        - navigation.tabs
+        - navigation.tabs.sticky
+        - navigation.sections
+        # - navigation.expand
+        - navigation.prune
+        - navigation.indexes
+        - toc.follow
+        # - toc.integrate
+        - navigation.top
+
+        - search.suggest
+        - search.highlight
+        - search.share
+
+        - header.autohide
+
+        - navigation.footer
+
+        - content.action.edit
+        - content.action.view
+
+        - content.code.copy
+        - content.code.annotate
+
+        - content.tooltips
+
+
+extra:
+    alternate:
+        - name: English
+          link: /en/ 
+          lang: en
+        - name: 中文
+          link: /zh/
+          lang: zh
+
+    homepage: /
+
+    #consent:
+    #    title: cookie
+    #    description:    >-
+    #        sdd
+    #    cookies:
+    #        analytics:
+    #            github
+
+
+    social:
+        - icon: fontawesome/brands/github
+          link: 链接url地址
+          name: 标识名
+        - icon: fontawesome/brands/docker
+          link: 链接url地址
+          name: 标识名
+    generator: false
+
+
+plugins:
+    - search:
+        lang:
+            - en
+            - ja
+        # '[\s\-,:!=\[\]]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+        separator: '[\s\-\.]+'
+        jieba_dict: res/dict.txt
+        jieba_dict_user: res/user_dict.txt
+    - search:
+        lang:
+            - en
+        jieba_dict: dict/dict.txt
+        separator: '[\s\-\.]+'
+    # - typeset
+
+    - glightbox
+
+markdown_extensions:
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
+
+    - attr_list
+    - md_in_html
+    - pymdownx.superfences
+
+    - attr_list
+
+    - pymdownx.highlight:
+        anchor_linenums: true
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.superfences
+
+    - pymdownx.superfences
+    - pymdownx.tabbed:
+        alternate_style: true
+    #- pymdownx.tabbed:
+    #    slugify: !!python/object/apply:pymdownx.slugs.slugify
+    #        kwds:
+    #            case: lower
+
+    # - content.tabs.link
+
+
+    - tables
+    - pymdownx.superfences:
+        custom_fences:
+            - name: mermaid
+              class: mermaid
+              format: !!python/name:pymdownx.superfences.fence_code_format
+    - footnotes
+
+    - pymdownx.critic
+    - pymdownx.caret
+    - pymdownx.keys
+    - pymdownx.mark
+    - pymdownx.tilde
+
+    - attr_list
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+
+
+    - attr_list
+    - md_in_html
+
+    - def_list
+    - pymdownx.tasklist:
+        custom_checkbox: true
+
+    - pymdownx.arithmatex:
+        generic: true
+
+    - abbr
+    - attr_list
+    - pymdownx.snippets
+    - pymdownx.snippets:
+        auto_append:
+            - includes/abbr.md
+
